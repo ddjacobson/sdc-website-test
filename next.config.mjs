@@ -8,6 +8,7 @@ try {
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/sdc-website-test',
   eslint: {
     ignoreDuringBuilds: true,
   },
